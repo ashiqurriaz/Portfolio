@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section class="header">
+            <nav>
+                    <img src="images/logo.png" alt="">
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times"  onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                             <li><a href="#about">About</a></li>
+                            <li><a href="#services">Service</a></li>
+                            <li><a href="#MyWork">My Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Hi</h1>
+               <h2>I am <span>Ashiqur Rahman Riaz</span> </h2>
+               <h3>Front-End Web Developer </h3>
+                <a href="images/CV of Riaz.pdf" download  class="hero-btn">Download CV</a>
+    
+            </div>
+
+    </section>
+
+
+    <!-----about start----->
+
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title">About Me</h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" >
+                </div>
+
+                <div class="about-col-2">
+                   
+                    <p>I am a a highly motivated and engineering graduate looking for an entry-level position as a software engineer. I have the ability to learn things quickly and capable of working in a fast-paced and team-driven environment.  </p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"  onclick="opentab('Skills')">Skills</p>
+                            <!--<p class="tab-links" onclick="opentab('Experience')">Experience</p>------>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents  active-tab" id="Skills" >
+                            <ul>
+                                <li><span>Language & Web Technology</span><br>C, JavaScript, Python(Basic), HTML, CSS</li>
+                                <li><span>Database </span><br> MySQL</li>
+                                <li><span> Version Control</span><br> Git, Github </li>
+                                <li><span> Tools & OS</span><br> VS Code ,Code::Blocks, Sublime Text , Google Colab, Windows, Ubuntu </li>
+                                <li><span>Others </span><br>Microsoft Word , Microsoft Powerpoint, Microsoft Excel </li>
+                            </ul>
+                        </div>
+
+                        <!--<div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Web Dev</span><br>Web Site Development</li>
+                                <li><span>App D</span><br>App Development</li>
+                                <li><span>Graphic r</span><br>Designing WebSite</li>
+                            </ul>
+                        </div>-->
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>B.Sc in Computer Science & Engineering</span><br>Daffodil International University <br>CGPA-3.08/4.00 <br>Session: 2018-2022</li>
+                                <li><span>Higher Secondary School Certificate</span><br>Narayanganj College <br>GPA-3.08/5.00 <br>Session: 2015-2016</li>
+                                <li><span>Secondary School Certificate</span><br>I.E.T Government High School <br>GPA-4.11/5.00 <br>Session:2013-2014</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+       </div>   
+       
+       
+
+       <!--------service-------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                    <div>
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci similique earum sapiente nulla, <br> accusantium omnis! Minima labore, vel dignissimos iure, aliquid reprehenderit excepturi quibusdam at corrupti fugit debitis nulla.</p>
+                        
+                    </div>
+            </div>
+    </div>
+</div>
+
+
+
+<!-------my work------->
+
+<div id="MyWork">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/r&s.PNG" alt="">
+                <div class="layer">
+                    <h3>Restaurant Web</h3>
+                    <p>This is a Restaurant Template Project. HTML & CSS are used to create it. It is Responsive.</p>
+                    <div class="butt">
+                        <form action="https://ashiqurriaz.github.io/R-S-Restaurant/" method="get" target="_blank">
+                            <button type="submit" class="submits1">Live View</button>
+                         </form>
+                         <form action="https://github.com/ashiqurriaz/R-S-Restaurant" method="get" target="_blank">
+                            <button type="submit" class="submits2">Github Source</button>
+                         </form>
+                        </div>
+                    <!--<a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>----->
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/prot.jpg" alt="">
+                <div class="layer">
+                    <h3>Airlines Ticket Price Prediction Project</h3>
+                    <p>This is Final Year Project. Here used the Random Forest regression algorithm, Decision Tree algorithm and Linear Regression Algorithm to predict the price of airline tickets.</p>
+                    <div class="butt">
+                        <!--<form action="https://ashiqurriaz.github.io/R-S-Restaurant/" method="get" target="_blank">
+                            <button type="submit" class="submits1">Live View</button>
+                         </form>-->
+                         <form action="https://github.com/ashiqurriaz/Airlines-ticket-price-prediction-using-Machine-Learning-Approach" method="get" target="_blank">
+                            <button type="submit" class="submits2">Github Source</button>
+                         </form>
+                        </div>
+                    <!---<a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>---->
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/calcul.jpg" alt="">
+                <div class="layer">
+                    <h3> Simple Calculator</h3>
+                    <p>It is a Simple Calculator. Its build with HTML  CSS & JavaScript.</p>
+                    <div class="butt">
+                    <form action="https://ashiqurriaz.github.io/Calculator/" method="get" target="_blank">
+                        <button type="submit" class="submits1">Live View</button>
+                     </form>
+                     <form action="https://github.com/ashiqurriaz/Calculator" method="get" target="_blank">
+                        <button type="submit" class="submits2">Github Source</button>
+                     </form>
+                    </div>
+                    <!----<a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>--->
+                </div>
+            </div>
+  
+</div>
+</div>
+</div>
+
+
+
+<!-------contact-------->
+
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="row">
+            <div class="contact-left">
+                <p><i class="fa fa-map-marker" ></i>       100 No Pathantuli <br><span class="sp1">Narayanganj </span>  <br>  <span class="sp1">Dhaka Bangladesh</span> </p>
+                <p><i class="fa fa-envelope" ></i>riaz12487@gmail.com</p>
+                <p><i class="fa fa-phone" ></i>0162*******</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ashiqur-rahman-riaz-3640b3176/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ashiqurriaz "><i class="fa-brands fa-github"></i></a>
+                    <!--<a href=" "><i class="fa-brands fa-twitter"></i></a>
+                    <a href=" "><i class="fa-brands fa-instagram"></i></a>---->
+                </div>
+                <!--<a href="images/CV of Riaz.pdf" download  class="btn btn2">Download CV</a>--->
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" >
+                    <input type="email" name="Email" placeholder="Your Email" >
+                    <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+           
+        </div>
+       
+    </div>
+</div>
+
+
+<!---------footer----->
+
+<footer>
+    <div class="footer">
+        <h4>&copy; 2023 All right reserved by Ashiqur Rahman Riaz </h4>
+        <h5>  Designed & Developed By ASHIQUR RAHMAN RIAZ</h5> 
+    </div>
+</footer>
+    
+        
+<script src="index.js"></script>
+
+      
+
+</body>
+</html>
